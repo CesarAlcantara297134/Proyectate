@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+body {
+    background: linear-gradient(to right, #F2B93C 60%, #ECF0F0 40%);
+}
+
+#mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 200vh;
+    background: linear-gradient(to right, #F2B93C 61%, #ECF0F0 30%);
+}
+
+#contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#camera{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+#video{
+    width: 70vh;
+    padding: 4vh;
+    margin-top: 25vh;
+    border-radius: 5%;
+}
+
+#resultado{
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 18vh;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#oracion{
+    font-family: fantasy;
+    font-size: 70;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+#categoria{
+    font-family: fantasy;
+    font-size: 4vh;
+    color: #F2B93C;
+    background-color: #ECF0F0;
+    width: auto;
+    text-align: center;
+
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+
+.title{
+    display: flex;
+}
+
+.icon{
+    font-size: 6vh;
+}
+
+.titulo{
+    margin-left: 2vh;
+}
+
+@media (max-width: 768px) {
+    #mid {
+      height: auto; 
+      width: auto; 
+    }
+    
+    #video {
+      width: 100%;
+      margin-top: 2vh;
+    }
+
+    #resultado{
+        font-family: 'Monomaniac One', sans-serif;
+        font-size: 8vh;
+        color: white;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    #oracion{
+        font-family: fantasy;
+        font-size: 30;
+        color: white;
+        margin-bottom: 5px;
+        
+    }
+    #categoria{
+        font-family: fantasy;
+        font-size: 2vh;
+        color: #F2B93C;
+        background-color: #ECF0F0;
+        width: auto;
+        text-align: center;
+    
+    }
+  }
